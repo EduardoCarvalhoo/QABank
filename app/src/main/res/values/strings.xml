@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">QABank</string>
+
+    <!-- Login -->
+    <string name="login_logo_content_description">logo QABank</string>
+
 </resources>
