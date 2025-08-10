@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">QABank</string>
+
+    <!-- Login -->
+    <string name="login_logo_content_description">logo QABank</string>
+    <string name="login_open_account">Abrir uma conta</string>
+    <string name="login_access_account">Acessar minha conta</string>
+    <string name="login_slogan">O banco digital que facilita sua vida com segurança e qualidade</string>
+    <string name="login_qr_code">Ícone de Qr code</string>
+    <string name="login_bar_code">Ícone de pagamento de boleto</string>
+    <string name="login_money_box">Ícone dinheiro guardado</string>
+    <string name="login_card">Ícone de cartão</string>
+
 </resources>
