@@ -12,5 +12,12 @@
         <!-- Customize your theme here. -->
         <item name="android:statusBarColor" tools:targetApi="21">@color/primaryColor</item>
         <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+
+        <item name="materialButtonStyle">@style/Widget.QABank.Button</item>
+
+    </style>
+
+    <style name="Widget.QABank.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">8dp</item>
     </style>
 </resources>
