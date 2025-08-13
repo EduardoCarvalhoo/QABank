@@ -1,8 +1,10 @@
-package com.example.qabank
+package com.example.qabank.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.qabank.fragment.LoginCpfFragment
+import com.example.qabank.R
 import com.example.qabank.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {

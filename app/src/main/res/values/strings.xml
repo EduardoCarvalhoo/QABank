@@ -21,4 +21,13 @@
     <string name="fragment_login_password_app_text">Senha do aplicativo</string>
     <string name="fragment_login_password_reset_text"><u>Esqueci minha senha</u></string>
 
+    <!-- Account Opening -->
+    <string name="opening_account_title_text">Abrir conta</string>
+    <string name="opening_account_help_title_text">Ajuda</string>
+
+    <!-- Fragment cpf and terms -->
+    <string name="fragment_cpf_and_terms_title_text">Qual seu CPF?</string>
+    <string name="fragment_cpf_and_terms_account_opening_check_box">Declaro que li e aceito o <font color="#11113D"><b>Contrato de Abertura de Conta</b></font></string>
+    <string name="fragment_cpf_and_terms_check_box">Declaro que li e aceito os <font color="#11113D"><b>Termos de Uso</b></font></string>
+    <string name="fragment_cpf_and_terms_privacy_policy_check_box">Declaro que li e aceito as <font color="#11113D"><b>Políticas de Privacidade</b></font></string>
 </resources>

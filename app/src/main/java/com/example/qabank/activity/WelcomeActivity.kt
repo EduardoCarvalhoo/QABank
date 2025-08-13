@@ -1,4 +1,4 @@
-package com.example.qabank
+package com.example.qabank.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,11 +13,19 @@ class WelcomeActivity : AppCompatActivity() {
         setContentView(binging.root)
 
         accessTheAccount()
+        setAccountOpening()
     }
 
-    private fun accessTheAccount(){
+    private fun accessTheAccount() {
         binging.accessAccountButton.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun setAccountOpening() {
+        binging.openAccountButton.setOnClickListener {
+            val intent = Intent(this, AccountOpeningActivity::class.java)
             startActivity(intent)
         }
     }

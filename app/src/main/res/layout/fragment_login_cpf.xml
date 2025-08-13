@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginCpfFragment">
+    tools:context=".fragment.LoginCpfFragment">
 
     <TextView
         android:id="@+id/login_subtitle"
@@ -16,8 +16,8 @@
         android:text="@string/login_informative_text"
         android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/login_end_guideline"
-        app:layout_constraintStart_toStartOf="@+id/login_start_guideline"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_login_end_guideline"
+        app:layout_constraintStart_toStartOf="@+id/fragment_login_start_guideline"
         app:layout_constraintTop_toBottomOf="@+id/login_title" />
 
     <TextView
@@ -41,8 +41,8 @@
         android:layout_marginTop="8dp"
         app:boxStrokeColor="@color/primaryColor"
         app:endIconMode="clear_text"
-        app:layout_constraintEnd_toStartOf="@+id/login_end_guideline"
-        app:layout_constraintStart_toStartOf="@+id/login_start_guideline"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_login_end_guideline"
+        app:layout_constraintStart_toStartOf="@+id/fragment_login_start_guideline"
         app:layout_constraintTop_toBottomOf="@+id/login_subtitle">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -65,19 +65,19 @@
         android:padding="16dp"
         android:text="@string/login_advance_text"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/login_end_guideline"
-        app:layout_constraintStart_toStartOf="@+id/login_start_guideline"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_login_end_guideline"
+        app:layout_constraintStart_toStartOf="@+id/fragment_login_start_guideline"
         app:layout_constraintWidth_max="320dp" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/login_start_guideline"
+        android:id="@+id/fragment_login_start_guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="40dp" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/login_end_guideline"
+        android:id="@+id/fragment_login_end_guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"

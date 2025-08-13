@@ -1,11 +1,11 @@
-package com.example.qabank
+package com.example.qabank.fragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import com.example.qabank.databinding.FragmentLoginPasswordBinding
 
 class LoginPasswordFragment : Fragment() {
