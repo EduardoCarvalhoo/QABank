@@ -2,6 +2,7 @@ package com.example.qabank
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import com.example.qabank.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
@@ -13,6 +14,8 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setupToolbar()
+        loadInitialFragment(savedInstanceState)
+
     }
 
     private fun setupToolbar() {
@@ -22,4 +25,23 @@ class LoginActivity : AppCompatActivity() {
         supportActionBar?.setDisplayShowTitleEnabled(false)
     }
 
+    private fun loadInitialFragment(savedInstanceState: Bundle?) {
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(
+                binding.loginContainerFragment.id, LoginCpfFragment()
+            ).commit()
+        }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        if (supportFragmentManager.popBackStackImmediate()) {
+            return true
+        }
+        return super.onSupportNavigateUp()
+    }
+
+    fun navigateTo(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(binding.loginContainerFragment.id, fragment).addToBackStack(null).commit()
+    }
 }

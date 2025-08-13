@@ -17,5 +17,8 @@
     <string name="login_informative_text">Insira seu documento para acessar a conta</string>
     <string name="login_document_text">CPF</string>
     <string name="login_advance_text">Avançar</string>
+    <string name="fragment_login_password_enter_text">Entrar</string>
+    <string name="fragment_login_password_app_text">Senha do aplicativo</string>
+    <string name="fragment_login_password_reset_text"><u>Esqueci minha senha</u></string>
 
 </resources>
