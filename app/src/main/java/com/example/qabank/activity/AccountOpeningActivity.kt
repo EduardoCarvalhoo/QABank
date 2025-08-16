@@ -2,10 +2,10 @@ package com.example.qabank.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import com.example.qabank.R
 import com.example.qabank.databinding.ActivityAccountOpeningBinding
 import com.example.qabank.fragment.CpfAndTermsFragment
-import com.example.qabank.fragment.LoginCpfFragment
 
 class AccountOpeningActivity : AppCompatActivity() {
     private val binding by lazy { ActivityAccountOpeningBinding.inflate(layoutInflater) }
@@ -38,5 +38,11 @@ class AccountOpeningActivity : AppCompatActivity() {
             return true
         }
         return super.onSupportNavigateUp()
+    }
+
+    fun navigateTo(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(binding.activityAccountOpeningContainerFragment.id, fragment)
+            .addToBackStack(null).commit()
     }
 }

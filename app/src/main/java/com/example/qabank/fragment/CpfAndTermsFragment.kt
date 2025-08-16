@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.qabank.activity.AccountOpeningActivity
 import com.example.qabank.databinding.FragmentCpfAndTermsBinding
 
 class CpfAndTermsFragment : Fragment() {
@@ -17,6 +18,14 @@ class CpfAndTermsFragment : Fragment() {
     ): View? {
         _binding = FragmentCpfAndTermsBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.fragmentCpfAndTermsAdvanceButton.setOnClickListener {
+            val activity = requireActivity() as AccountOpeningActivity
+            activity.navigateTo(AccountOpeningStepsFragment())
+        }
     }
 
     override fun onDestroy() {

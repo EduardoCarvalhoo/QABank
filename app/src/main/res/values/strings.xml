@@ -25,9 +25,29 @@
     <string name="opening_account_title_text">Abrir conta</string>
     <string name="opening_account_help_title_text">Ajuda</string>
 
-    <!-- Fragment cpf and terms -->
+    <!-- Fragment Cpf And Terms -->
     <string name="fragment_cpf_and_terms_title_text">Qual seu CPF?</string>
     <string name="fragment_cpf_and_terms_account_opening_check_box">Declaro que li e aceito o <font color="#11113D"><b>Contrato de Abertura de Conta</b></font></string>
     <string name="fragment_cpf_and_terms_check_box">Declaro que li e aceito os <font color="#11113D"><b>Termos de Uso</b></font></string>
     <string name="fragment_cpf_and_terms_privacy_policy_check_box">Declaro que li e aceito as <font color="#11113D"><b>Políticas de Privacidade</b></font></string>
+
+    <!-- Fragment Account Opening Steps -->
+    <string name="fragment_account_opening_steps_add_user_text">Icone adicionar usuário</string>
+    <string name="fragment_account_opening_steps_description_text">Veja como funciona as etapas de abertura de conta</string>
+    <string name="fragment_account_opening_steps_first_title_text">Dados básicos</string>
+    <string name="fragment_account_opening_steps_first_description_text">Você nos fornece algumas informações básicas sobre você.</string>
+    <string name="fragment_account_opening_steps_second_title_text">Envio de documento</string>
+    <string name="fragment_account_opening_steps_second_description_text">Você fará o envio de um documento com foto, e uma selfie.</string>
+    <string name="fragment_account_opening_steps_third_title_text">Criar senhas</string>
+    <string name="fragment_account_opening_steps_third_description_text">Nessa etapa você define a senha de acesso ao aplicativo e também, a de movimentação.</string>
+    <string name="fragment_account_opening_steps_fourth_title_text">Análise</string>
+    <string name="fragment_account_opening_steps_fourth_description_text">Estaremos analisando todas informações e dados do seu perfil. Assim que a análise é finalizada, te avisaremos, ok?</string>
+    <string name="fragment_account_opening_steps_current_step_label_text">Você está aqui</string>
+
+    <!-- Generic Strings -->
+    <string name="one_number">1</string>
+    <string name="two_number">2</string>
+    <string name="three_number">3</string>
+    <string name="four_number">4</string>
+
 </resources>
