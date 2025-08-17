@@ -54,11 +54,15 @@
     <string name="fragment_phone_registration_description_text">Ele será utilizado para confirmações de segurança.</string>
     <string name="fragment_name_registration_informative_text">Número com DDD</string>
 
+    <!-- Fragment Email Registration -->
+    <string name="fragment_email_registration_title_text">Qual seu e-mail?</string>
+    <string name="fragment_email_registration_description_text">Ele será utilizado para confirmações de segurança.</string>
+    <string name="fragment_email_registration_informative_text">Seu melhor e-mail</string>
+
 
     <!-- Generic Strings -->
     <string name="one_number">1</string>
     <string name="two_number">2</string>
     <string name="three_number">3</string>
     <string name="four_number">4</string>
-
 </resources>
