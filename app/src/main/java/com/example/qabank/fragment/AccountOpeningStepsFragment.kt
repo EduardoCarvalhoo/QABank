@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.qabank.activity.AccountOpeningActivity
 import com.example.qabank.databinding.FragmentAccountOpeningStepsBinding
 
 class AccountOpeningStepsFragment : Fragment() {
@@ -22,6 +23,14 @@ class AccountOpeningStepsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        binding.fragmentAccountOpeningStepsAdvanceButton.setOnClickListener {
+            val activity = requireActivity() as AccountOpeningActivity
+            activity.navigateTo(NameRegistrationFragment())
+        }
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
+    }
 }

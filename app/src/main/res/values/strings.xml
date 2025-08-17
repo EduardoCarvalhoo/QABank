@@ -44,10 +44,18 @@
     <string name="fragment_account_opening_steps_fourth_description_text">Estaremos analisando todas informações e dados do seu perfil. Assim que a análise é finalizada, te avisaremos, ok?</string>
     <string name="fragment_account_opening_steps_current_step_label_text">Você está aqui</string>
 
+    <!-- Fragment Name Registration -->
+    <string name="fragment_name_registration_title_text">Qual seu nome completo?</string>
+    <string name="fragment_name_registration_description_text">Digite seu nome completo igual ao seu RG, sem abreviações!</string>
+    <string name="fragment_name_registration_name_text">Nome completo</string>
+
+
     <!-- Generic Strings -->
     <string name="one_number">1</string>
     <string name="two_number">2</string>
     <string name="three_number">3</string>
     <string name="four_number">4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

@@ -4,60 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.LoginCpfFragment">
+    tools:context=".fragment.NameRegistrationFragment">
 
     <TextView
-        android:id="@+id/login_subtitle"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="1dp"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:text="@string/login_informative_text"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/fragment_login_end_guideline"
-        app:layout_constraintStart_toStartOf="@+id/fragment_login_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/login_title" />
-
-    <TextView
-        android:id="@+id/login_title"
+        android:id="@+id/fragment_name_registration_title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/login_title_text"
-        android:textColor="@color/black"
+        android:text="@string/fragment_name_registration_title_text"
+        android:textColor="@color/primaryColor"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/fragment_name_registration_description_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/fragment_name_registration_description_text"
+        android:textColor="@color/primaryColor"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_name_registration_end_guideline"
+        app:layout_constraintStart_toStartOf="@+id/fragment_name_registration_start_guideline"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_name_registration_title_text" />
+
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/login_text_input_layout_cpf"
+        android:id="@+id/fragment_name_registration_text_input_layout_cpf"
         style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
+        app:hintTextColor="@color/primaryColor"
         app:boxStrokeColor="@color/primaryColor"
         app:endIconMode="clear_text"
-        app:layout_constraintEnd_toStartOf="@+id/fragment_login_end_guideline"
-        app:layout_constraintStart_toStartOf="@+id/fragment_login_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/login_subtitle"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_name_registration_end_guideline"
+        app:layout_constraintStart_toStartOf="@+id/fragment_name_registration_start_guideline"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_name_registration_description_text"
         app:layout_constraintWidth_max="488dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/login_text_input_edit_text_cpf"
+            android:id="@+id/fragment_name_registration_text_input_edit_text_cpf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/gray"
-            android:hint="@string/login_document_text"
-            android:inputType="number"
-            android:maxLength="14" />
+            android:hint="@string/fragment_name_registration_name_text"
+            android:inputType="text"
+            android:maxLength="40" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/fragment_login_advance_button"
+        android:id="@+id/fragment_name_registration_advance_button"
         style="@style/Widget.QABank.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -66,19 +67,19 @@
         android:padding="16dp"
         android:text="@string/login_advance_text"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/fragment_login_end_guideline"
-        app:layout_constraintStart_toStartOf="@+id/fragment_login_start_guideline"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_name_registration_end_guideline"
+        app:layout_constraintStart_toStartOf="@+id/fragment_name_registration_start_guideline"
         app:layout_constraintWidth_max="320dp" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/fragment_login_start_guideline"
+        android:id="@+id/fragment_name_registration_start_guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="40dp" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/fragment_login_end_guideline"
+        android:id="@+id/fragment_name_registration_end_guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
