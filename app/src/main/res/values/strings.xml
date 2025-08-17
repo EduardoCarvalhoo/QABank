@@ -49,13 +49,16 @@
     <string name="fragment_name_registration_description_text">Digite seu nome completo igual ao seu RG, sem abreviações!</string>
     <string name="fragment_name_registration_name_text">Nome completo</string>
 
+    <!-- Fragment Phone Registration -->
+    <string name="fragment_phone_registration_title_text">Qual seu número de celular?</string>
+    <string name="fragment_phone_registration_description_text">Ele será utilizado para confirmações de segurança.</string>
+    <string name="fragment_name_registration_informative_text">Número com DDD</string>
+
 
     <!-- Generic Strings -->
     <string name="one_number">1</string>
     <string name="two_number">2</string>
     <string name="three_number">3</string>
     <string name="four_number">4</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

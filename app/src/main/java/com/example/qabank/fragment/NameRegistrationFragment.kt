@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.qabank.activity.AccountOpeningActivity
 import com.example.qabank.databinding.FragmentNameRegistrationBinding
 
 class NameRegistrationFragment : Fragment() {
@@ -18,5 +19,18 @@ class NameRegistrationFragment : Fragment() {
     ): View? {
         _binding = FragmentNameRegistrationBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.fragmentNameRegistrationAdvanceButton.setOnClickListener {
+            val activity = requireActivity() as AccountOpeningActivity
+            activity.navigateTo(PhoneRegistrationFragment())
+        }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
     }
 }
