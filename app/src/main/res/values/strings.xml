@@ -59,6 +59,12 @@
     <string name="fragment_email_registration_description_text">Ele será utilizado para confirmações de segurança.</string>
     <string name="fragment_email_registration_informative_text">Seu melhor e-mail</string>
 
+    <!-- Fragment Email Registration -->
+    <string name="fragment_gender_registration_title_text">Sexo</string>
+    <string name="fragment_gender_registration_description_text">Deve ser o mesmo que consta em seus documentos oficiais.</string>
+    <string name="fragment_gender_registration_masculine_text">Masculino</string>
+    <string name="fragment_gender_registration_feminine_text">Feminino</string>
+
 
     <!-- Generic Strings -->
     <string name="one_number">1</string>
