@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.qabank.activity.AccountOpeningActivity
 import com.example.qabank.databinding.FragmentIncomeBinding
 
 class IncomeFragment : Fragment() {
@@ -17,5 +18,18 @@ class IncomeFragment : Fragment() {
     ): View? {
         _binding = FragmentIncomeBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.fragmentIncomeAdvanceButton.setOnClickListener {
+            val activity = requireActivity() as AccountOpeningActivity
+            activity.navigateTo(SavingInformationFragment())
+        }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
     }
 }

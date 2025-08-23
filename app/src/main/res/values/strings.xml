@@ -88,6 +88,10 @@
     <string name="fragment_income_title_text">Renda</string>
     <string name="fragment_income_description_text">Informe sua renda atual</string>
 
+    <!-- Fragment Saving Information -->
+    <string name="fragment_saving_information_title_text">Salvando Informações</string>
+    <string name="fragment_saving_information_description_text">Estamos salvando as informações e preparando tudo para a próxima etapa!</string>
+
     <!-- Generic Strings -->
     <string name="one_number">1</string>
     <string name="two_number">2</string>
