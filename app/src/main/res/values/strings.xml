@@ -84,6 +84,9 @@
     <string name="fragment_address_registration_neighborhood_text">Bairro</string>
     <string name="fragment_address_registration_street_information_text">Avenida / Rua / Rodovia / etc</string>
 
+    <!-- Fragment Income -->
+    <string name="fragment_income_title_text">Renda</string>
+    <string name="fragment_income_description_text">Informe sua renda atual</string>
 
     <!-- Generic Strings -->
     <string name="one_number">1</string>

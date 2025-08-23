@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.IncomeFragment">
+
+    <TextView
+        android:id="@+id/fragment_income_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/fragment_income_title_text"
+        android:textColor="@color/primaryColor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fragment_income_description_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/fragment_income_description_text"
+        android:textColor="@color/primaryColor"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_income_end_guideline"
+        app:layout_constraintStart_toStartOf="@+id/fragment_income_start_guideline"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_income_title_text" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fragment_income_input_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:boxStrokeColor="@color/primaryColor"
+        app:endIconMode="clear_text"
+        app:hintTextColor="@color/primaryColor"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_income_end_guideline"
+        app:layout_constraintStart_toStartOf="@+id/fragment_income_start_guideline"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_income_description_text"
+        app:layout_constraintWidth_max="488dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fragment_income_input_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:hint="@string/fragment_income_title_text"
+            android:inputType="number"
+            android:maxLength="15" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/fragment_income_advance_button"
+        style="@style/Widget.QABank.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/primaryColor"
+        android:padding="16dp"
+        android:text="@string/login_advance_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_income_end_guideline"
+        app:layout_constraintStart_toStartOf="@+id/fragment_income_start_guideline"
+        app:layout_constraintWidth_max="320dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/fragment_income_start_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="40dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/fragment_income_end_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="40dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
