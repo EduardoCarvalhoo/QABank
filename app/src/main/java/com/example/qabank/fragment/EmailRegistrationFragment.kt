@@ -27,4 +27,9 @@ class EmailRegistrationFragment : Fragment() {
             activity.navigateTo(GenderRegistrationFragment())
         }
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
+    }
 }

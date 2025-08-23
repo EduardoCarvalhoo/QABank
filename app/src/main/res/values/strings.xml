@@ -65,10 +65,21 @@
     <string name="fragment_gender_registration_masculine_text">Masculino</string>
     <string name="fragment_gender_registration_feminine_text">Feminino</string>
 
+    <!-- Fragment Declaration -->
+    <string name="fragment_declaration_title_text">Declaração de capacidade</string>
+    <string name="fragment_declaration_description_text">Selecione se outra pessoa é legalmente responsável por você.</string>
+    <string name="fragment_declaration_question_about_disability_text">Você é uma pessoa legalmente incapaz?</string>
+    <string name="fragment_declaration_politically_exposed_person_title_text">Pessoa Politicamente Exposta</string>
+    <string name="fragment_declaration_politically_exposed_person_description_text">Se você é uma pessoa politicamente exposta, selecione a opção abaixo.</string>
+    <string name="fragment_declaration_question_about_politically_exposed_person_text">Você é uma pessoa politicamente exposta?</string>
+    <string name="fragment_declaration_legally_incapacitated_person_help_text">Botão de ajuda: Ative o botão a esquerda se você é uma pessoa legalmente incapaz?</string>
+    <string name="fragment_declaration_politically_exposed_help_text">Botão de ajuda: Ative o botão a esquerda se você é uma pessoa politicamente exposta?</string>
+
 
     <!-- Generic Strings -->
     <string name="one_number">1</string>
     <string name="two_number">2</string>
     <string name="three_number">3</string>
     <string name="four_number">4</string>
+
 </resources>
