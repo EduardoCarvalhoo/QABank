@@ -75,6 +75,15 @@
     <string name="fragment_declaration_legally_incapacitated_person_help_text">Botão de ajuda: Ative o botão a esquerda se você é uma pessoa legalmente incapaz?</string>
     <string name="fragment_declaration_politically_exposed_help_text">Botão de ajuda: Ative o botão a esquerda se você é uma pessoa politicamente exposta?</string>
 
+    <!-- Fragment Address Registration -->
+    <string name="fragment_address_registration_title_text">Endereço residencial</string>
+    <string name="fragment_address_registration_description_text">Complete o endereço</string>
+    <string name="fragment_address_registration_zip_code_text">CEP</string>
+    <string name="fragment_address_registration_number_text">Número</string>
+    <string name="fragment_address_registration_complement_text">Complemento (opcional)</string>
+    <string name="fragment_address_registration_neighborhood_text">Bairro</string>
+    <string name="fragment_address_registration_street_information_text">Avenida / Rua / Rodovia / etc</string>
+
 
     <!-- Generic Strings -->
     <string name="one_number">1</string>
