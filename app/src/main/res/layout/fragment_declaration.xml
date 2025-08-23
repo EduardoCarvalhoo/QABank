@@ -7,7 +7,7 @@
     tools:context=".fragment.DeclarationFragment">
 
     <TextView
-        android:id="@+id/fragment_declaration_title_text"
+        android:id="@+id/fragment_declaration_title_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/fragment_declaration_description_text"
+        android:id="@+id/fragment_declaration_description_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -30,7 +30,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toStartOf="@+id/fragment_declaration_end_guideline"
         app:layout_constraintStart_toStartOf="@+id/fragment_declaration_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_title_text" />
+        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_title_text_view" />
 
 
     <com.google.android.material.switchmaterial.SwitchMaterial
@@ -41,7 +41,7 @@
         android:text="@string/fragment_declaration_question_about_disability_text"
         app:layout_constraintEnd_toStartOf="@+id/fragment_declaration_end_guideline"
         app:layout_constraintStart_toEndOf="@+id/fragment_declaration_incapacitated_person_help_image_button"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_description_text" />
+        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_description_text_view" />
 
     <ImageButton
         android:id="@+id/fragment_declaration_incapacitated_person_help_image_button"
@@ -53,11 +53,11 @@
         android:src="@drawable/help_circle"
         app:layout_constraintHeight_min="48dp"
         app:layout_constraintStart_toStartOf="@+id/fragment_declaration_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_description_text"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_description_text_view"
         app:layout_constraintWidth_min="48dp" />
 
     <TextView
-        android:id="@+id/fragment_declaration_politically_exposed_person_title_text"
+        android:id="@+id/fragment_declaration_politically_exposed_person_title_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -70,7 +70,7 @@
         app:layout_constraintTop_toTopOf="@+id/fragment_declaration_view" />
 
     <TextView
-        android:id="@+id/fragment_declaration_politically_exposed_person_description_text"
+        android:id="@+id/fragment_declaration_politically_exposed_person_description_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -80,7 +80,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toStartOf="@+id/fragment_declaration_end_guideline"
         app:layout_constraintStart_toStartOf="@+id/fragment_declaration_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_politically_exposed_person_title_text" />
+        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_politically_exposed_person_title_text_view" />
 
 
     <com.google.android.material.switchmaterial.SwitchMaterial
@@ -91,7 +91,7 @@
         android:text="@string/fragment_declaration_question_about_politically_exposed_person_text"
         app:layout_constraintEnd_toStartOf="@+id/fragment_declaration_end_guideline"
         app:layout_constraintStart_toEndOf="@+id/fragment_declaration_politically_exposed_help_image_button"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_politically_exposed_person_description_text" />
+        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_politically_exposed_person_description_text_view" />
 
     <ImageButton
         android:id="@+id/fragment_declaration_politically_exposed_help_image_button"
@@ -103,7 +103,7 @@
         android:src="@drawable/help_circle"
         app:layout_constraintHeight_min="48dp"
         app:layout_constraintStart_toStartOf="@+id/fragment_declaration_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_politically_exposed_person_description_text"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_declaration_politically_exposed_person_description_text_view"
         app:layout_constraintWidth_min="48dp" />
 
     <View
@@ -123,7 +123,7 @@
         android:layout_marginBottom="24dp"
         android:backgroundTint="@color/primaryColor"
         android:padding="16dp"
-        android:text="@string/login_advance_text"
+        android:text="@string/button_advance_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/fragment_declaration_end_guideline"
         app:layout_constraintStart_toStartOf="@+id/fragment_declaration_start_guideline"

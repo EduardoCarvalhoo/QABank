@@ -7,7 +7,7 @@
     tools:context=".fragment.CpfAndTermsFragment">
 
     <TextView
-        android:id="@+id/fragment_cpf_and_terms_title_text"
+        android:id="@+id/fragment_cpf_and_terms_title_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -30,7 +30,7 @@
         app:endIconMode="clear_text"
         app:layout_constraintEnd_toStartOf="@+id/fragment_cpf_and_terms_end_guideline"
         app:layout_constraintStart_toStartOf="@+id/fragment_cpf_and_terms_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_cpf_and_terms_title_text"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_cpf_and_terms_title_text_view"
         app:layout_constraintWidth_max="488dp">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -51,7 +51,7 @@
         android:layout_marginBottom="24dp"
         android:backgroundTint="@color/primaryColor"
         android:padding="16dp"
-        android:text="@string/login_advance_text"
+        android:text="@string/button_advance_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/fragment_cpf_and_terms_end_guideline"
         app:layout_constraintStart_toStartOf="@+id/fragment_cpf_and_terms_start_guideline"

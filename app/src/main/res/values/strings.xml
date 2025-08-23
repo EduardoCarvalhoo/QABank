@@ -16,7 +16,6 @@
     <string name="login_title_text">Acesse sua conta</string>
     <string name="login_informative_text">Insira seu documento para acessar a conta</string>
     <string name="login_document_text">CPF</string>
-    <string name="login_advance_text">Avançar</string>
     <string name="fragment_login_password_enter_text">Entrar</string>
     <string name="fragment_login_password_app_text">Senha do aplicativo</string>
     <string name="fragment_login_password_reset_text"><u>Esqueci minha senha</u></string>
@@ -32,17 +31,9 @@
     <string name="fragment_cpf_and_terms_privacy_policy_check_box">Declaro que li e aceito as <font color="#11113D"><b>Políticas de Privacidade</b></font></string>
 
     <!-- Fragment Account Opening Steps -->
-    <string name="fragment_account_opening_steps_add_user_text">Icone adicionar usuário</string>
-    <string name="fragment_account_opening_steps_description_text">Veja como funciona as etapas de abertura de conta</string>
     <string name="fragment_account_opening_steps_first_title_text">Dados básicos</string>
-    <string name="fragment_account_opening_steps_first_description_text">Você nos fornece algumas informações básicas sobre você.</string>
     <string name="fragment_account_opening_steps_second_title_text">Envio de documento</string>
     <string name="fragment_account_opening_steps_second_description_text">Você fará o envio de um documento com foto, e uma selfie.</string>
-    <string name="fragment_account_opening_steps_third_title_text">Criar senhas</string>
-    <string name="fragment_account_opening_steps_third_description_text">Nessa etapa você define a senha de acesso ao aplicativo e também, a de movimentação.</string>
-    <string name="fragment_account_opening_steps_fourth_title_text">Análise</string>
-    <string name="fragment_account_opening_steps_fourth_description_text">Estaremos analisando todas informações e dados do seu perfil. Assim que a análise é finalizada, te avisaremos, ok?</string>
-    <string name="fragment_account_opening_steps_current_step_label_text">Você está aqui</string>
 
     <!-- Fragment Name Registration -->
     <string name="fragment_name_registration_title_text">Qual seu nome completo?</string>
@@ -93,9 +84,21 @@
     <string name="fragment_saving_information_description_text">Estamos salvando as informações e preparando tudo para a próxima etapa!</string>
 
     <!-- Generic Strings -->
+    <string name="account_opening_steps_description_text">Veja como funciona as etapas de abertura de conta</string>
+    <string name="account_opening_steps_first_description_text">Você nos fornece algumas informações básicas sobre você.</string>
+    <string name="account_opening_steps_third_title_text">Criar senhas</string>
+    <string name="account_opening_steps_third_description_text">Nessa etapa você define a senha de acesso ao aplicativo e também, a de movimentação.</string>
+    <string name="account_opening_steps_fourth_title_text">Análise</string>
+    <string name="account_opening_steps_fourth_description_text">Estaremos analisando todas informações e dados do seu perfil. Assim que a análise é finalizada, te avisaremos, ok?</string>
+    <string name="button_advance_text">Avançar</string>
+    <string name="button_continue_text">Continuar</string>
+    <string name="add_user_text">Icone adicionar usuário</string>
     <string name="one_number">1</string>
     <string name="two_number">2</string>
     <string name="three_number">3</string>
     <string name="four_number">4</string>
+    <string name="current_step_label_text">Você está aqui</string>
+
+
 
 </resources>

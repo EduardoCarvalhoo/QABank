@@ -7,7 +7,7 @@
     tools:context=".fragment.LoginCpfFragment">
 
     <TextView
-        android:id="@+id/login_subtitle"
+        android:id="@+id/login_subtitle_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="1dp"
@@ -18,10 +18,10 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toStartOf="@+id/fragment_login_end_guideline"
         app:layout_constraintStart_toStartOf="@+id/fragment_login_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/login_title" />
+        app:layout_constraintTop_toBottomOf="@+id/login_title_text_view" />
 
     <TextView
-        android:id="@+id/login_title"
+        android:id="@+id/login_title_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -43,7 +43,7 @@
         app:endIconMode="clear_text"
         app:layout_constraintEnd_toStartOf="@+id/fragment_login_end_guideline"
         app:layout_constraintStart_toStartOf="@+id/fragment_login_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/login_subtitle"
+        app:layout_constraintTop_toBottomOf="@+id/login_subtitle_text_view"
         app:layout_constraintWidth_max="488dp">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -64,7 +64,7 @@
         android:layout_marginBottom="24dp"
         android:backgroundTint="@color/primaryColor"
         android:padding="16dp"
-        android:text="@string/login_advance_text"
+        android:text="@string/button_advance_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/fragment_login_end_guideline"
         app:layout_constraintStart_toStartOf="@+id/fragment_login_start_guideline"

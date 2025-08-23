@@ -14,89 +14,60 @@
         android:layout_marginTop="32dp"
         android:background="@drawable/add_user_icon"
         android:backgroundTint="@color/primaryColor"
-        android:contentDescription="@string/fragment_account_opening_steps_add_user_text"
+        android:contentDescription="@string/add_user_text"
         app:layout_constraintEnd_toStartOf="@+id/fragment_account_opening_steps_end_guideline"
         app:layout_constraintStart_toStartOf="@+id/fragment_account_opening_steps_start_guideline"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/fragment_account_opening_steps_first_step_image_view"
+        android:id="@+id/fragment_account_opening_steps_first_step_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
         android:background="@drawable/ic_circle_background"
-        android:contentDescription="@string/fragment_account_opening_steps_add_user_text"
         android:gravity="center"
         android:text="@string/one_number"
         app:layout_constraintStart_toStartOf="@+id/fragment_account_opening_steps_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_description" />
+        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_description_text_view" />
 
     <TextView
-        android:id="@+id/fragment_account_opening_steps_second_step_image_view"
+        android:id="@+id/fragment_account_opening_steps_second_step_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:background="@drawable/ic_circle_background"
-        android:contentDescription="@string/fragment_account_opening_steps_add_user_text"
         android:gravity="center"
         android:text="@string/two_number"
         app:layout_constraintStart_toStartOf="@+id/fragment_account_opening_steps_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_first_step_image_view" />
+        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_first_step_text_view" />
 
     <TextView
-        android:id="@+id/fragment_account_opening_steps_third_step_image_view"
+        android:id="@+id/fragment_account_opening_steps_third_step_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:background="@drawable/ic_circle_background"
-        android:contentDescription="@string/fragment_account_opening_steps_add_user_text"
         android:gravity="center"
         android:text="@string/three_number"
         app:layout_constraintStart_toStartOf="@+id/fragment_account_opening_steps_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_second_step_image_view" />
+        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_second_step_text_view" />
 
     <TextView
-        android:id="@+id/fragment_account_opening_steps_fourth_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:background="@drawable/ic_circle_background"
-        android:contentDescription="@string/fragment_account_opening_steps_add_user_text"
-        android:gravity="center"
-        android:text="@string/four_number"
-        app:layout_constraintStart_toStartOf="@+id/fragment_account_opening_steps_start_guideline"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_third_step_image_view" />
-
-    <TextView
-        android:id="@+id/fragment_account_opening_steps_description"
+        android:id="@+id/fragment_account_opening_steps_description_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="36dp"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="@string/fragment_account_opening_steps_description_text"
+        android:text="@string/account_opening_steps_description_text"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toStartOf="@+id/fragment_account_opening_steps_end_guideline"
         app:layout_constraintStart_toStartOf="@+id/fragment_account_opening_steps_start_guideline"
         app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_add_user_image_view" />
 
-    <Button
-        android:id="@+id/fragment_account_opening_steps_advance_button"
-        style="@style/Widget.QABank.Button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:backgroundTint="@color/primaryColor"
-        android:padding="16dp"
-        android:text="@string/login_advance_text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/fragment_account_opening_steps_end_guideline"
-        app:layout_constraintStart_toStartOf="@+id/fragment_account_opening_steps_start_guideline"
-        app:layout_constraintWidth_max="320dp" />
-
     <TextView
-        android:id="@+id/fragment_account_opening_steps_first_title_text"
+        android:id="@+id/fragment_account_opening_steps_first_title_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -106,11 +77,11 @@
         android:textColor="@color/primaryColor"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_first_step_image_view"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_description" />
+        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_first_step_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_description_text_view" />
 
     <TextView
-        android:id="@+id/fragment_account_opening_steps_current_step_label_text"
+        android:id="@+id/fragment_account_opening_steps_current_step_label_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -118,115 +89,98 @@
         android:background="@drawable/rounded_background_label"
         android:gravity="start"
         android:paddingHorizontal="8dp"
-        android:text="@string/fragment_account_opening_steps_current_step_label_text"
+        android:text="@string/current_step_label_text"
         android:textColor="@color/white"
         android:textSize="12sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_first_title_text"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_description" />
+        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_first_title_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_description_text_view" />
 
     <TextView
-        android:id="@+id/fragment_account_opening_steps_first_description_text"
+        android:id="@+id/fragment_account_opening_steps_first_description_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:gravity="start"
-        android:text="@string/fragment_account_opening_steps_first_description_text"
+        android:text="@string/account_opening_steps_first_description_text"
         android:textColor="@color/dark_gray"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/fragment_account_opening_steps_end_guideline"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_first_step_image_view"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_first_title_text" />
+        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_first_step_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_first_title_text_view" />
 
     <TextView
-        android:id="@+id/fragment_account_opening_steps_second_title_text"
+        android:id="@+id/fragment_account_opening_steps_third_title_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="28dp"
         android:gravity="start"
-        android:text="@string/fragment_account_opening_steps_second_title_text"
+        android:text="@string/account_opening_steps_third_title_text"
         android:textColor="@color/primaryColor"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/fragment_account_opening_steps_end_guideline"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_second_step_image_view"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_first_description_text" />
+        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_second_step_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_first_description_text_view" />
 
     <TextView
-        android:id="@+id/fragment_account_opening_steps_second_description_text"
+        android:id="@+id/fragment_account_opening_steps_third_description_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:gravity="start"
-        android:text="@string/fragment_account_opening_steps_second_description_text"
+        android:text="@string/account_opening_steps_third_description_text"
         android:textColor="@color/dark_gray"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/fragment_account_opening_steps_end_guideline"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_second_step_image_view"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_second_title_text" />
+        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_second_step_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_third_title_text_view" />
 
     <TextView
-        android:id="@+id/fragment_account_opening_steps_third_title_text"
+        android:id="@+id/fragment_account_opening_steps_fourth_title_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="28dp"
         android:gravity="start"
-        android:text="@string/fragment_account_opening_steps_third_title_text"
+        android:text="@string/account_opening_steps_fourth_title_text"
         android:textColor="@color/primaryColor"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/fragment_account_opening_steps_end_guideline"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_third_step_image_view"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_second_description_text" />
+        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_third_step_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_third_description_text_view" />
 
     <TextView
-        android:id="@+id/fragment_account_opening_steps_third_description_text"
+        android:id="@+id/fragment_account_opening_steps_fourth_description_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:gravity="start"
-        android:text="@string/fragment_account_opening_steps_third_description_text"
+        android:text="@string/account_opening_steps_fourth_description_text"
         android:textColor="@color/dark_gray"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/fragment_account_opening_steps_end_guideline"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_third_step_image_view"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_third_title_text" />
+        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_third_step_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_fourth_title_text_view" />
 
-    <TextView
-        android:id="@+id/fragment_account_opening_steps_fourth_title_text"
+    <Button
+        android:id="@+id/fragment_account_opening_steps_advance_button"
+        style="@style/Widget.QABank.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="28dp"
-        android:gravity="start"
-        android:text="@string/fragment_account_opening_steps_fourth_title_text"
-        android:textColor="@color/primaryColor"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/primaryColor"
+        android:padding="16dp"
+        android:text="@string/button_advance_text"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/fragment_account_opening_steps_end_guideline"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_fourth_image_view"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_third_description_text" />
-
-    <TextView
-        android:id="@+id/fragment_account_opening_steps_fourth_description_text"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="start"
-        android:text="@string/fragment_account_opening_steps_fourth_description_text"
-        android:textColor="@color/dark_gray"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toStartOf="@+id/fragment_account_opening_steps_end_guideline"
-        app:layout_constraintStart_toEndOf="@+id/fragment_account_opening_steps_fourth_image_view"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_account_opening_steps_fourth_title_text" />
+        app:layout_constraintStart_toStartOf="@+id/fragment_account_opening_steps_start_guideline"
+        app:layout_constraintWidth_max="320dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/fragment_account_opening_steps_start_guideline"
