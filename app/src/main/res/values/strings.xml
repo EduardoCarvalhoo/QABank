@@ -84,13 +84,15 @@
     <string name="fragment_saving_information_description_text">Estamos salvando as informações e preparando tudo para a próxima etapa!</string>
 
     <!-- Fragment Password Registration -->
-    <string name="fragment_password_registration_title_text">Senha do aplicativo</string>
-    <string name="fragment_password_registration_description_text">Defina uma senha de para acessar seu aplicativo</string>
     <string name="fragment_password_registration_first_criterion_text">Use letras e números</string>
     <string name="fragment_password_registration_second_criterion_text">Use no mínimo 6 caracteres</string>
     <string name="fragment_password_registration_third_criterion_text">Use pelo menos 1 letra maiúscula</string>
     <string name="fragment_password_registration_fourth_criterion_text">Use pelo menos 1 letra minúscula</string>
     <string name="fragment_password_registration_fifth_criterion_text">Use ao menos 1 caractere especial</string>
+
+    <!-- Fragment Password Confirmation -->
+    <string name="fragment_password_confirmation_description_text">Insira a mesma senha definida anteriormente</string>
+    <string name="fragment_password_confirmation_instruction_text">Deve ser igual</string>
 
     <!-- Generic Strings -->
     <string name="account_opening_steps_description_text">Veja como funciona as etapas de abertura de conta</string>
@@ -102,6 +104,8 @@
     <string name="button_advance_text">Avançar</string>
     <string name="button_continue_text">Continuar</string>
     <string name="add_user_text">Icone adicionar usuário</string>
+    <string name="password_text">Senha do aplicativo</string>
+    <string name="password_registration_description_text">Defina uma senha de para acessar seu aplicativo</string>
     <string name="one_number">1</string>
     <string name="two_number">2</string>
     <string name="three_number">3</string>
