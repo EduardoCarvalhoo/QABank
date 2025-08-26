@@ -27,4 +27,9 @@ class PasswordRegistrationFragment : Fragment() {
             activity.navigateTo(PasswordConfirmationFragment())
         }
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
+    }
 }

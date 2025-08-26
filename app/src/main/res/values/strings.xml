@@ -94,6 +94,10 @@
     <string name="fragment_password_confirmation_description_text">Insira a mesma senha definida anteriormente</string>
     <string name="fragment_password_confirmation_instruction_text">Deve ser igual</string>
 
+    <!-- Fragment Validate Information -->
+    <string name="fragment_validate_information_title_text">Validando Informações</string>
+    <string name="fragment_validate_information_description_text">Estamos vendo se tudo está certo e criando sua senha de acesso</string>
+
     <!-- Generic Strings -->
     <string name="account_opening_steps_description_text">Veja como funciona as etapas de abertura de conta</string>
     <string name="account_opening_steps_first_description_text">Você nos fornece algumas informações básicas sobre você.</string>
