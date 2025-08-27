@@ -98,6 +98,12 @@
     <string name="fragment_validate_information_title_text">Validando Informações</string>
     <string name="fragment_validate_information_description_text">Estamos vendo se tudo está certo e criando sua senha de acesso</string>
 
+    <!-- Fragment Registration Confirmation -->
+    <string name="fragment_registration_confirmation_back_to_top_text">Voltar para tela inicial</string>
+    <string name="fragment_registration_confirmation_title_text">Seu cadastro foi finalizado com sucesso!</string>
+    <string name="fragment_registration_confirmation_analysis_notice_text">Já estamos analisando seus dados, mas pode levar alguns minutos. Você receberá uma notificação assim que tivermos novidades.</string>
+
+
     <!-- Generic Strings -->
     <string name="account_opening_steps_description_text">Veja como funciona as etapas de abertura de conta</string>
     <string name="account_opening_steps_first_description_text">Você nos fornece algumas informações básicas sobre você.</string>
@@ -115,6 +121,5 @@
     <string name="three_number">3</string>
     <string name="four_number">4</string>
     <string name="current_step_label_text">Você está aqui</string>
-
 
 </resources>

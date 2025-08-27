@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".RegistrationConfirmationFragment">
+
+    <ImageView
+        android:id="@+id/fragment_registration_confirmation_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/login_logo_content_description"
+        android:src="@drawable/ic_business_logo"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fragment_registration_confirmation_login_slogan_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="@string/login_slogan"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_registration_confirmation_text_view" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_registration_confirmation_login_slogan_text_view">
+
+        <ImageView
+            android:id="@+id/fragment_registration_confirmation_icon_bar_code_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="24"
+            android:contentDescription="@string/login_bar_code"
+            android:src="@drawable/bar_code" />
+
+        <ImageView
+            android:id="@+id/fragment_registration_confirmation_icon_qr_code_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="24"
+            android:contentDescription="@string/login_qr_code"
+            android:src="@drawable/qr_code" />
+
+        <ImageView
+            android:id="@+id/fragment_registration_confirmation_icon_money_box_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="24"
+            android:contentDescription="@string/login_money_box"
+            android:src="@drawable/money_box" />
+
+        <ImageView
+            android:id="@+id/fragment_registration_confirmation_icon_card_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="24"
+            android:contentDescription="@string/login_card"
+            android:src="@drawable/card" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_top_background"
+        android:orientation="vertical"
+        android:paddingVertical="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <FrameLayout
+            android:id="@+id/fragment_registration_confirmation_frame_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_background"
+                android:importantForAccessibility="no" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_check" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/fragment_registration_confirmation_title_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/fragment_registration_confirmation_title_text"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/fragment_registration_confirmation_end_guideline"
+            app:layout_constraintStart_toStartOf="@+id/fragment_registration_confirmation_start_guideline"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_registration_confirmation_frame_layout" />
+
+        <TextView
+            android:id="@+id/fragment_registration_confirmation_analysis_notice_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            app:layout_constraintWidth_max="400dp"
+            android:text="@string/fragment_registration_confirmation_analysis_notice_text"
+            app:layout_constraintEnd_toStartOf="@+id/fragment_registration_confirmation_end_guideline"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/fragment_registration_confirmation_start_guideline"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_registration_confirmation_title_text_view" />
+
+        <Button
+            android:id="@+id/fragment_registration_confirmation_back_button"
+            style="@style/Widget.QABank.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/primaryColor"
+            android:padding="16dp"
+            android:text="@string/fragment_registration_confirmation_back_to_top_text"
+            app:layout_constraintEnd_toStartOf="@+id/fragment_registration_confirmation_end_guideline"
+            app:layout_constraintStart_toStartOf="@+id/fragment_registration_confirmation_start_guideline"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_registration_confirmation_analysis_notice_text_view"
+            app:layout_constraintWidth_max="320dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/fragment_registration_confirmation_start_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="40dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/fragment_registration_confirmation_end_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="40dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
